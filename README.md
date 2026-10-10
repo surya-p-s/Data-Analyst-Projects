@@ -153,10 +153,10 @@ Upcoming additions include:
 https://github.com/surya-p-s
 
 ### LinkedIn
-(Add your LinkedIn Profile URL)
+https://www.linkedin.com/in/surya-pratap/
 
 ### Email
-(Add your Professional Email)
+surya2112singh@gmail.com
 
 ---
 
