@@ -1,89 +1,170 @@
-# Power BI Multi-Dashboard Portfolio
+# 📊 Data Analyst Projects Portfolio
 
-Welcome to the Power BI Analytics Portfolio. This repository contains two distinct Power BI dashboard projects designed to deliver business intelligence and data-driven insights.
+Welcome to my Data Analytics Portfolio repository. This repository showcases a collection of end-to-end data analytics projects demonstrating skills in data cleaning, exploratory data analysis, visualization, business intelligence, SQL, Python, Excel, and dashboard development.
 
----
+## 👨‍💻 About Me
 
-## 🛠️ Repository Architecture & File Mechanics
+I am a Data Analyst passionate about transforming raw data into actionable business insights. My expertise includes:
 
-This repository hosts two primary Power BI templates/reports. Due to the underlying structure of Power BI (`.pbix` / `.pbit`) files, the project files map to the following structural components:
-
-```text
-├── README.md
-├── Dashboard_1/
-│   ├── [Content_Types].xml        # Content stream types mapping
-│   ├── DataModel                  # Data engine model definitions
-│   ├── Metadata                   # Report metadata and schema
-│   └── Report/
-│       ├── Layout                 # Canvas layout, visual structures & positions
-│       └── StaticResources/       # Embedded visual assets (PNGs, logos, icons)
-└── Dashboard_2/
-    ├── [Content_Types].xml
-    ├── DataModel
-    ├── Metadata
-    └── Report/
-        ├── Layout
-        └── StaticResources/
-
-```
+- SQL for data extraction and analysis
+- Python for data manipulation and automation
+- Power BI for interactive dashboards
+- Excel for reporting and business analysis
+- Data Visualization & Storytelling
+- Statistical Analysis and Business Intelligence
 
 ---
 
-## 📊 Dashboard 1: Sales & Revenue Overview
+## 🛠️ Tools & Technologies
 
-### Overview
+### Programming & Query Languages
+- Python
+- SQL
 
-This dashboard focuses on commercial performance, tracking total sales metrics, volume growth, and key transaction statistics across time periods and operational segments.
+### Data Analysis Libraries
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
 
-### Key Features
+### Business Intelligence Tools
+- Power BI
+- Microsoft Excel
 
-* **Key Performance Indicators (KPIs):** Instant visibility into total orders, overall revenue, and average transaction size.
-* **Trend Analysis:** Period-over-period tracking to evaluate growth trajectories.
-* **Interactive Visuals:** Built-in dynamic filters for fast drill-downs across categories and regions.
+### Database Technologies
+- MySQL
+- SQL Server
 
-### Data Model & Measures
-
-* **Average Order Value (AOV):** Calculated dynamically via DAX to assess average customer spend per transaction.
-* **Total Order Count:** Distinct aggregations of order identifiers across selected timeframes.
-
----
-
-## 📈 Dashboard 2: Executive Performance & Operational Insights
-
-### Overview
-
-Designed for executive decision-makers, this report aggregates cross-functional metrics to monitor high-level organizational trends, operational efficiency, and target attainment.
-
-### Key Features
-
-* **Executive Summary:** Top-level metrics summarizing business health and operational output.
-* **Comparative Metrics:** Side-by-side performance evaluation against historical benchmarks.
-* **Custom Asset Integration:** Standardized visual layouts for seamless stakeholder presentations.
+### Version Control
+- Git
+- GitHub
 
 ---
 
-## 🚀 Getting Started
+## 📂 Projects Included
 
-### Prerequisites
+### 1. Data Cleaning Project
+**Objective:** Improve data quality by identifying and resolving inconsistencies, duplicates, missing values, and formatting issues.
 
-* **Power BI Desktop** (Latest version recommended)
-* Access to source data drivers (if refreshing datasets locally)
-
-### Installation & Usage
-
-1. Clone or download this repository:
-```bash
-git clone https://github.com/your-username/your-repo-name.git
-
-```
-
-
-2. Navigate to the desired dashboard folder.
-3. Open the corresponding `.pbix` file using **Power BI Desktop**.
-4. To update data connections, navigate to `Home > Transform Data > Data source settings` and update paths to your local or cloud data sources.
+**Skills Demonstrated:**
+- Data Cleaning
+- Data Validation
+- SQL Queries
+- Data Transformation
 
 ---
 
-## 🤝 Contributing
+### 2. Exploratory Data Analysis (EDA)
+**Objective:** Analyze datasets to uncover trends, patterns, relationships, and actionable insights.
 
-Contributions, issues, and feature requests are welcome! Feel free to open an issue or submit a pull request.
+**Skills Demonstrated:**
+- Statistical Analysis
+- Trend Identification
+- Data Visualization
+- Business Insights Generation
+
+---
+
+### 3. SQL Analytics Projects
+**Objective:** Solve real-world business problems using SQL.
+
+**Skills Demonstrated:**
+- Joins
+- CTEs
+- Window Functions
+- Subqueries
+- Aggregations
+- Performance Optimization
+
+---
+
+### 4. Power BI Dashboard Development
+**Objective:** Build interactive dashboards for business stakeholders.
+
+**Skills Demonstrated:**
+- KPI Tracking
+- Interactive Reporting
+- Data Modeling
+- DAX Measures
+- Visualization Design
+
+---
+
+### 5. Excel Analytics Projects
+**Objective:** Perform business analysis using advanced Excel techniques.
+
+**Skills Demonstrated:**
+- Pivot Tables
+- Power Query
+- Dashboard Development
+- Data Cleaning
+- Reporting Automation
+
+---
+
+## 🎯 Key Competencies
+
+✅ Data Cleaning & Preparation
+
+✅ Exploratory Data Analysis
+
+✅ SQL Query Optimization
+
+✅ Dashboard Development
+
+✅ Business Intelligence Reporting
+
+✅ Data Visualization
+
+✅ Statistical Analysis
+
+✅ Data Storytelling
+
+---
+
+## 📈 What You'll Find in This Repository
+
+- Real-world datasets
+- Business case studies
+- SQL solutions
+- Python notebooks
+- Excel dashboards
+- Power BI reports
+- Analytical insights and recommendations
+
+---
+
+## 🚀 Future Projects
+
+Upcoming additions include:
+
+- Customer Segmentation Analysis
+- Sales Performance Dashboard
+- Marketing Campaign Analysis
+- HR Analytics Dashboard
+- Predictive Analytics Projects
+- Machine Learning Fundamentals
+
+---
+
+## 🤝 Connect With Me
+
+### GitHub
+https://github.com/surya-p-s
+
+### LinkedIn
+(Add your LinkedIn Profile URL)
+
+### Email
+(Add your Professional Email)
+
+---
+
+## ⭐ Repository Support
+
+If you find these projects useful, please consider giving this repository a star ⭐.
+
+Your support helps me share more analytics projects and learning resources with the community.
+
+---
+**Author:** Surya P S
