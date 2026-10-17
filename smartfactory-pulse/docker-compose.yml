@@ -1,0 +1,30 @@
+version: '3.8'
+
+services:
+  timescaledb:
+    image: timescale/timescaledb-ha:pg16
+    container_name: factory_db
+    restart: always
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: factorypassword
+      POSTGRES_DB: factory_mes
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+  grafana:
+    image: grafana/grafana:latest
+    container_name: factory_grafana
+    restart: always
+    ports:
+      - "3000:3000"
+    depends_on:
+      - timescaledb
+    volumes:
+      - grafanadata:/var/lib/grafana
+
+volumes:
+  pgdata:
+  grafanadata:
